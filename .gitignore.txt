@@ -1,0 +1,12 @@
+# log files
+*.log
+
+# local runtime files
+*.pyc
+*.xml
+*.idea
+*.iml
+
+# directories
+__pyache__/
+.pytest_cache/

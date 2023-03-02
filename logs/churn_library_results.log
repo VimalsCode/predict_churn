@@ -1,0 +1,20 @@
+root - INFO - INFO:starting the training pipeline to predict customers that are most likely to churn
+root - INFO - SUCCESS: sucessfully loaded data file ./data/bank_data.csv from the specified path
+root - INFO - INFO: starting eda and plot visualization
+root - INFO - SUCCESS: completed successfully the eda and plot visualization
+root - INFO - INFO: starting feature engineering for the dataframe: (10127, 23)
+root - INFO - INFO: starting column encoding with size: 5
+root - INFO - INFO: sucessfully completed comlun encoding
+root - INFO - INFO: completed feature engineering and the new feature column size is: (10127, 19)
+root - INFO - INFO: starting model training
+root - INFO - SUCCESS: model training completed
+root - INFO - INFO:Saving the random forest trained model
+root - INFO - SUCESS:Saved the random forest trained model
+root - INFO - INFO:Saving the logistic regression trained model
+root - INFO - SUCESS:Saved the logistic regression trained model
+root - INFO - INFO:generating classification report for training and testing results
+root - INFO - SUCCESS:generated classification report for training and testing results
+root - INFO - SUCESS:generated receiver operating characteristic(roc) plot
+root - INFO - INFO:generating feature importances for training data
+root - INFO - SUCCESS:generated feature importances plot for training data
+root - INFO - SUCCESS:completed the model training to predict customers that are most likely to churn
